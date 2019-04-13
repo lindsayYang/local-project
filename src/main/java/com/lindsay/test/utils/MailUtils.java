@@ -29,6 +29,7 @@ public class MailUtils {
             javaMailSender.send(message);
         } catch (Exception e) {
             e.printStackTrace();
+
         }
     }
 
